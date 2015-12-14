@@ -22,3 +22,16 @@
     git add ../README.md .
     git commit -m "Add new project."
     git push
+
+### configure database
+
+    # edit mycompany/settings.txt
+    
+### create a demo application
+
+    ./manage.py startapp demo
+    # edit demo/views.py
+    # edit mycompany/urls.py
+    git add demo ../README.md mycompany/settings.py mycompany/urls.py
+    git commit -m "Create a demo application."
+    git push

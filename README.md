@@ -35,3 +35,16 @@
     git add demo ../README.md mycompany/settings.py mycompany/urls.py
     git commit -m "Create a demo application."
     git push
+
+### adding variables to views
+
+    # edit demo/views.py
+
+### moving the logic into a separate template file
+
+    mkdir $HOME/workspace/templates
+    touch $HOME/workspace/templates/example.html
+    # edit mycompany/settings.py
+    git add ../README.md demo/views.py mycompany/settings.py ../templates
+    git commit -m "Start using templates."
+    git push

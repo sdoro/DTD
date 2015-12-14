@@ -13,3 +13,12 @@
     git add README.md requirements.txt
     git commit -m "Init environment."
     git push -u origin master
+
+### make a project
+
+    django-admin.py startproject mycompany
+    cd mycompany
+    ./manage.py runserver $IP:$PORT
+    git add ../README.md .
+    git commit -m "Add new project."
+    git push

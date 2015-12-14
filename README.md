@@ -48,3 +48,10 @@
     git add ../README.md demo/views.py mycompany/settings.py ../templates
     git commit -m "Start using templates."
     git push
+
+### Using template filters
+
+    # edit $HOME/workspace/templates/example.html
+    git add ../README.md ../templates/example.html 
+    git commit -m "Using template filters."
+    git push

@@ -62,3 +62,11 @@
     git add ../README.md ../templates/example.html 
     git commit -m "Using template tags to perform logical tests [1]."
     git push
+
+### Using template tags to perform logical tests [2]
+
+    # edit demo/views.ps
+    # edit ../templates/example.html
+    git add ../README.md demo/views.py ../templates/example.html
+    git commit -m "Using template tags to perform logical tests [2]."
+    git push

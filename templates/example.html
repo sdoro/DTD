@@ -1,6 +1,4 @@
 
-{% ifequal fav_color 'blue' %}
- My favorite color is {{ fav_color }}.
-{% else %}
- My favorite color is not blue.
-{% endifequal %}
+{% for color in fav_color %}
+  My favorite color is {{ color }}.<br/>
+{% endfor %}

@@ -77,3 +77,10 @@
     git add ../README.md ../templates/example.html
     git commit -m "Adding comments."
     git push
+
+### End Chapter 1
+
+    git add ../README.md
+    git commit -m "End Chapter 1"
+    git tag -a c1 -m "Chapter 1.0"
+    git push --tags

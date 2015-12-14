@@ -55,3 +55,10 @@
     git add ../README.md ../templates/example.html 
     git commit -m "Using template filters."
     git push
+
+### Using template tags to perform logical tests [1]
+
+    # edit $HOME/workspace/templates/example.html
+    git add ../README.md ../templates/example.html 
+    git commit -m "Using template tags to perform logical tests [1]."
+    git push
